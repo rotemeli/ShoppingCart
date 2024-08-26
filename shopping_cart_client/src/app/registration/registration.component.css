@@ -1,0 +1,10 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.text-danger {
+    opacity: 0;
+    transition: height 0.3s ease, opacity 0.3s ease;
+    &.expanded {
+      height: auto;
+      opacity: 1;
+    }
+  }
+  
